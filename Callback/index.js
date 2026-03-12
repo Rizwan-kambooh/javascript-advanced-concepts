@@ -7,6 +7,8 @@
 // })
 
 
+// callbacks are functions that are passed as arguments to other functions and are executed after a certain event or operation is completed. They are commonly used in asynchronous programming to handle tasks that take time to complete, such as API calls, file reading, or timers.
+
 console.log("Before setTimeout");
 setTimeout(() => {
     console.log("Api 1 called");
