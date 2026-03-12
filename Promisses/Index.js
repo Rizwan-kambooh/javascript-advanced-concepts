@@ -26,7 +26,8 @@ FindUser(1).then(user => {
 // 4. `Promise.all()`: This method takes an array of promises and returns a new promise that resolves when all of the promises in the array have resolved, or rejects if any of the promises in the array reject.
 // 5. `Promise.allSettled()`: This method takes an array of promises and returns a new promise that resolves when all of the promises in the array have settled (either fulfilled or rejected), and provides an array of objects describing the outcome of each promise.
 // 6. `Promise.race()`: This method takes an array of promises and returns a new promise that resolves or rejects as soon as one of the promises in the array resolves or rejects, with the value or reason from that promise.
-// Example of using `Promise.all()`:
+
+// Example of using these Methods:
 
 
 // examples of each method:
