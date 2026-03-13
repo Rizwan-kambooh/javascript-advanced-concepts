@@ -8,6 +8,7 @@
 // 5. async functions
 // 6. pure functions
 // 7. higher-order functions
+// 8. Self-invoking functions
 
 
 // 1. Common Functions: These are the standard functions that we define using the function keyword. They can be named or anonymous.
@@ -48,6 +49,11 @@ function higherOrderFunction(func) {
         return func(x) + 1;
     };
 }
+
+// 8. Self-Invoking Functions: These are functions that are defined and immediately invoked. They are often used to create a new scope and avoid polluting the global namespace.
+(function() {
+    console.log('This is a self-invoking function');
+})();
 
 
 // Usage and getting the output of these functions can be done as follows:
