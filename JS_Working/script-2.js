@@ -13,7 +13,7 @@ console.log("Script ended");
 
 
 
-// in this tuturial we learned how the js runs synchronous and Asynchrounus code
+// in this tuturial we learned Exicution Context like how the js runs synchronous and Asynchrounus code
 // so whenever any code is exicuted it moves to the call stack where every single line is exicuted line by line with LIFO principle
 //STEP#1: so the console will be printed "console.log("Script started")"
 // STEP#2: Now there is async code here at second postion so this code will be moved to the Web Api which handle async code
